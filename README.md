@@ -53,4 +53,9 @@
   - SPLADE (Sparse)
   - DPR (Dense)
 
-
+### 2024.08.19. (Jungho)
+- SPLADE의 nonzero값(TopK values)에 따른 성능 및 속도를 비교해볼 수 있는 코드(SPLADE_test.py)를 업데이트했습니다.
+- nonzero값(TopK values)이 작으면 성능은 떨어지지만 속도는 빨라짐을 확인할 수 있습니다.
+- Output
+  - ![Recall@K_for_different_TopK_values](./figure/SPLADE_Recall@K_for_different_TopK_values.png)
+  - ![Average_Query_Time_for_different_TopK_values](./figure/SPLADE_Average_Query_Time_for_different_TopK_values.png)
