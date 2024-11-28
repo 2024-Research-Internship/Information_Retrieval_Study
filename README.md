@@ -47,13 +47,13 @@
 ![SPLADE, DPR, BM25 Figure](./figure/SPLADE_DPR_BM25_figure.png)
 
 ## Update Timeline
-### 2024.07.16. (Jonghyo)
+### 2024.07.16.
 - Information Retrieval의 기본 모델들 및 baseline 코드를 업데이트했습니다.
   - BM25 (Sparse)
   - SPLADE (Sparse)
   - DPR (Dense)
 
-### 2024.08.19. (Jungho)
+### 2024.08.19.
 - SPLADE의 nonzero값(TopK values)에 따른 성능 및 속도를 비교해볼 수 있는 코드(SPLADE_test.py)를 업데이트했습니다.
 - nonzero값(TopK values)이 작으면 성능은 떨어지지만 속도는 빨라짐을 확인할 수 있습니다.
 - Output
